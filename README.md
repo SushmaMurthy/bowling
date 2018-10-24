@@ -30,7 +30,7 @@ npm install
 Precommit Hook: git precommit hook is added to the repo using husky node library. This script ensures that Lint and Unit tests are run before each commit.
 ```bash
 npm run precommit
-# view code coverage report at coverage.zip/coverage/lcov-report/index.html
+# To view code coverage, run the above command and report will be available at ./coverage/lcov-report/index.html
 ```
 
 Run Score Calculator:

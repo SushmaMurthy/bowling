@@ -7,7 +7,7 @@ const BowlingGame = require("./models/bowling-game");
 const codeRed = clc.red.bold;
 const codeGreen = clc.green.bold;
 
-const runSimulator = fileName => {
+const scoreCalculator = fileName => {
   reader
     .readInputFile(fileName)
     .then(fileData => parser.parseData(fileData))
@@ -22,4 +22,4 @@ const runSimulator = fileName => {
 };
 
 // run simulator with input file argument
-runSimulator(process.argv[2]);
+scoreCalculator(process.argv[2]);

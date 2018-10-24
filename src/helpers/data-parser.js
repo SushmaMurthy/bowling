@@ -1,9 +1,5 @@
 const parseData = gameData => {
-  if (!gameData.length) {
-    return Promise.reject(
-      new RangeError("Please pass player game data to calculate score!")
-    );
-  }
+  // TODO Refactor this logic, consolidate all data validations into one function
 
   const gameDataArray = gameData
     .replace(/,/g, "\n")
@@ -14,6 +10,16 @@ const parseData = gameData => {
       }
       return parseInt(data);
     });
+
+  for (let i = 0; i < gameDataArray.length; i++) {
+    if (isNaN(gameDataArray[i])) {
+      return Promise.reject(
+        new Error(
+          "Invalid data, Please provide numbers for rolls and X for strike"
+        )
+      );
+    }
+  }
 
   return Promise.resolve(gameDataArray);
 };

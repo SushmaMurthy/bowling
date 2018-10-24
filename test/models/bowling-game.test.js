@@ -48,14 +48,33 @@ describe("Bowling Game", () => {
   });
 
   it("full game", () => {
-    // Add rolls for all 10 frames
-  });
-
-  it("full game with a strike in the last frame", () => {
-    // Add rolls for all 10 frames
+    // TODO create a random roll generator fn
+    player.roll(5);
+    player.roll(4);
+    player.roll(10);
+    player.roll(3);
+    player.roll(4);
+    player.roll(5);
+    player.roll(5);
+    player.roll(8);
+    player.roll(1);
+    player.roll(10);
+    player.roll(2);
+    player.roll(0);
+    player.roll(1);
+    player.roll(7);
+    player.roll(9);
+    player.roll(1);
+    player.roll(2);
+    player.roll(6);
+    expect(player.score()).toBe(102);
   });
 
   it("full game with all strikes", () => {
     // Add rolls for all 10 frames
+  });
+
+  it("full game with a strike in the last frame", () => {
+    // TODO Add rolls for all 10 frames and Strike at 10th frame
   });
 });

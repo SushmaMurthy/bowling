@@ -4,6 +4,8 @@
   "description": "Scring system of 10 pin bowling game",
   "main": "src/service.js",
   "scripts": {
+    "precommit": "npm run lint && npm run test",
+    "lint": "./node_modules/.bin/eslint src/*",
     "test": "jest --coverage",
     "start": "node src/service.js"
   },
@@ -24,11 +26,16 @@
     "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.3.0",
     "eslint-plugin-prettier": "^2.6.0",
+    "husky": "^1.1.2",
     "jest": "^23.6.0",
     "prettier": "^1.5.3"
   },
   "dependencies": {
-    "cli-color": "^1.2.0",
-    "lodash": "^4.17.11"
+    "cli-color": "^1.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run precommit"
+    }
   }
 }

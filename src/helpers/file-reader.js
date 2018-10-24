@@ -18,7 +18,7 @@ const readInputFile = fileName => {
     return Promise.resolve(fileData);
   } catch (fsError) {
     return Promise.reject(
-      new Error("Instructions file doesn't exist or could not be accessed")
+      new Error("Please pass player game data to calculate score!")
     );
   }
 };

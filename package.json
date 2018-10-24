@@ -1,0 +1,30 @@
+{
+  "name": "bowling",
+  "version": "1.0.0",
+  "description": "Scring system of 10 pin bowling game",
+  "main": "src/service.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node src/service.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SushmaMurthy/bowling.git"
+  },
+  "keywords": [
+    "bowling"
+  ],
+  "author": "Sushma Murthy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SushmaMurthy/bowling/issues"
+  },
+  "homepage": "https://github.com/SushmaMurthy/bowling#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.5.3"
+  }
+}

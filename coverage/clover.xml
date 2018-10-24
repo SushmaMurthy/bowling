@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1540379700698" clover="3.2.0">
-  <project timestamp="1540379700698" name="All files">
+<coverage generated="1540379962855" clover="3.2.0">
+  <project timestamp="1540379962856" name="All files">
     <metrics statements="47" coveredstatements="47" conditionals="16" coveredconditionals="16" methods="9" coveredmethods="9" elements="72" coveredelements="72" complexity="0" loc="47" ncloc="47" packages="2" files="3" classes="3">
       <package name="helpers">
         <metrics statements="22" coveredstatements="22" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
@@ -37,7 +37,7 @@
         <metrics statements="25" coveredstatements="25" conditionals="8" coveredconditionals="8" methods="6" coveredmethods="6"/>
         <file name="bowling-game.js" path="/Users/sushmamurthy/Documents/Personal/MyCodes/dius/bowling/src/models/bowling-game.js">
           <metrics statements="25" coveredstatements="25" conditionals="8" coveredconditionals="8" methods="6" coveredmethods="6"/>
-          <line num="3" count="9" type="stmt"/>
+          <line num="3" count="8" type="stmt"/>
           <line num="7" count="17" type="stmt"/>
           <line num="12" count="21" type="stmt"/>
           <line num="16" count="21" type="stmt"/>

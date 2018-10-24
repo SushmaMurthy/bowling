@@ -67,4 +67,3 @@ X
 ## Future Enhancements & Notes
 * Implement more robust validations around input game data and frames
 * Add logic to handle strike and spare on the last frame
-* Add more validations around game data

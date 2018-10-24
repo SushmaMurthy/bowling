@@ -70,10 +70,6 @@ describe("Bowling Game", () => {
     expect(player.score()).toBe(102);
   });
 
-  it("full game with all strikes", () => {
-    // Add rolls for all 10 frames
-  });
-
   it("full game with a strike in the last frame", () => {
     // TODO Add rolls for all 10 frames and Strike at 10th frame
   });

@@ -20,7 +20,7 @@ The application only accepts .txt files, with number of pins rolled in a frame p
 * Node.Js server
 * Node Package Manager
 
-This application is written in ECMAScript 6.
+This application is written in ECMAScript 6 and TDD and code coverage using JEST framework.
 
 Scoring system can be installed locally simply with NPM.
 ```bash
